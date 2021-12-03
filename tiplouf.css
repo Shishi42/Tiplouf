@@ -1,0 +1,44 @@
+body {
+  background-color: #363940;
+  background-image: url('fk.png');">
+}
+
+.maindiv {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  justify-content: space-between;
+}
+
+.sheets {
+  width: 764px;
+  height: 311px;
+}
+
+.tiplouf {
+  width: auto;
+  height: 311px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .tiplouf {
+    visibility: hidden;
+  }
+
+  body {
+    background-color: #363940;
+  }
+
+  .maindiv {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-between;
+  }
+}
